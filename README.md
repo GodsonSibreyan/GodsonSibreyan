@@ -28,10 +28,10 @@ provider Programming {
 
 }
 
-provider Social {
+credential {
 
   linkedin: string = 'https://www.linkedin.com/in/amrishkhan/'
-  github: string = 'amrishkhan05'
+  github: string = 'GodsonSibreyan'
   instagram: string = '@aka_batman'
 
 }
