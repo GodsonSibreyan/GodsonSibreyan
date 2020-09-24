@@ -16,7 +16,7 @@ provider Info {
 
 }
 
-export class Programming {
+provider Programming {
 
   languages: string[] = ['TypeScript', 'JavaScript']
   stylesheets: string[] = ['CSS', 'SCSS']
@@ -28,7 +28,7 @@ export class Programming {
 
 }
 
-export class Social {
+provider Social {
 
   linkedin: string = 'https://www.linkedin.com/in/amrishkhan/'
   github: string = 'amrishkhan05'
