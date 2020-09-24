@@ -38,7 +38,7 @@ export class Social {
 ```
 
 # Visitors
-![Profile views counter](https://profile-counter.glitch.me/amrishkha05/count.svg)
+![Profile views counter](https://profile-counter.glitch.me/GodsonSibreyan/count.svg)
 
 <img align='right' src='https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif' width='200"'>
 <!--
