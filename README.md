@@ -4,7 +4,7 @@
 
 
 
-```ts
+```tf
 provider Info {
 
   name: string = 'Godson Sibreyan'
