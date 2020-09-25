@@ -16,24 +16,21 @@ resource "personal" "info" {
 
 }
 
-provider Programming {
-
-  languages: string[] = ['TypeScript', 'JavaScript']
-  stylesheets: string[] = ['CSS', 'SCSS']
-  frameworks: string[] = ['Angular', 'React']
-  query language: string[] = ['GraphQL']
-  runtimes: string[] = ['Node']
-  databases: string[] = ['MySQL','Mongo']
-  learning: string[] = ['React','GraphQL', 'Angular']
+resource "professional" "info" {
+  
+  #Basic Knowlegde
+  languages = [PHP, Python]
+  stylesheets = "CSS"
+  databases = "MySQL"
 
 }
 
-credential {
+provider "social" {
 
-  linkedin: string = 'https://www.linkedin.com/in/amrishkhan/'
-  github: string = 'GodsonSibreyan'
-  instagram: string = '@aka_batman'
-
+  linkedin = "https://in.linkedin.com/in/godson-sibreyan-802a55160"
+  github = "GodsonSibreyan"
+  instagram = "godson_gods"
+  facebook = "Diostark Gody"
 }
 ```
 
@@ -47,7 +44,7 @@ credential {
 [![](https://el-psy-congroo-counter.glitch.me/count.svg)](https://glitch.com/~el-psy-congroo-counter)
 
 
-**amrishkhan05/amrishkhan05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**GodsonSibreyan/GodsonSibreyan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
