@@ -12,7 +12,7 @@ resource "personal" "info" {
   nationality = Indian
   languages = English, Tamil
   occupation = DevOPS Engineer
-  freetime: string[] = Gym, Reading, Hanging out with friends
+  freetime = Singing, Music, Hanging out with friends
 
 }
 
