@@ -5,14 +5,14 @@
 
 
 ```tf
-provider Info {
+resource "personal" "info" {
 
-  name: string = 'Godson Sibreyan'
-  age: number = 22
-  nationality: string[] = ['Indian']
-  languages: string[] = [ 'English', 'Tamil']
-  occupation: string = 'DevOPS Engineer'
-  freetime: string[] = ['Gym', 'Reading', 'Hanging out with friends']
+  name = Godson Sibreyan
+  age = 22
+  nationality = Indian
+  languages = English, Tamil
+  occupation = DevOPS Engineer
+  freetime: string[] = Gym, Reading, Hanging out with friends
 
 }
 
