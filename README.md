@@ -19,10 +19,21 @@ resource "personal" "info" {
 resource "professional" "info" {
   
   #Basic Knowlegde
-  languages = [PHP, Python]
-  stylesheets = "CSS"
-  databases = "MySQL"
-
+  languages = [PHP, Python Selenium]
+  web_development = [HTML, CSS, PHP, JS, Bootstarp, Wordpress, Mobirise]
+  cicd = [Jenkins, GIT]
+  configuration_management = Ansible
+  scripting_language = [Shell, Powershell]
+  cloud = [AWS, Azure, GCP]
+  microservice = [Docker, Kubernetes]
+  monitor = [Zabbix, istio, Grafana, Prometheus, ELK, EFK]
+  artifactory = jfrog
+  content_management = alfreso
+  on_process {
+         puppet = beginner
+         chef = beginner
+         saltstack = beginner
+  }
 }
 
 provider "social" {
@@ -30,7 +41,7 @@ provider "social" {
   linkedin = "https://in.linkedin.com/in/godson-sibreyan-802a55160"
   github = "GodsonSibreyan"
   instagram = "godson_gods"
-  facebook = "Diostark Gody"
+  facebook = "Godson Sibreyan"
 }
 ```
 
