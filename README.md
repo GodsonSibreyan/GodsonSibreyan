@@ -22,7 +22,7 @@ resource "professional" "info" {
   languages = [PHP, Python Selenium]
   web_development = [HTML, CSS, PHP, JS, Bootstarp, Wordpress, Mobirise]
   cicd = [Jenkins, GIT]
-  configuration_management = Ansible
+  configuration_management = "Ansible"
   scripting_language = [Shell, Powershell]
   cloud = [AWS, Azure, GCP]
   microservice = [Docker, Kubernetes]
