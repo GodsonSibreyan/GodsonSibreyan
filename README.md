@@ -40,9 +40,10 @@ resource "professional" "info" {
 provider "social" {
 
   linkedin = "https://in.linkedin.com/in/godson-sibreyan-802a55160"
-  github = "GodsonSibreyan"
-  instagram = "godson_gods"
-  facebook = "Godson Sibreyan"
+  github = GodsonSibreyan
+  instagram = godson_gods
+  facebook = Godson Sibreyan
+  twitter = @godson_sibi
 }
 ```
 
