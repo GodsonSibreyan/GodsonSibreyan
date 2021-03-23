@@ -8,7 +8,7 @@
 resource "personal" "info" {
 
   name = Godson Sibreyan
-  age = 22
+  age = 23
   nationality = Indian
   languages = English, Tamil
   occupation = DevOPS Engineer
@@ -19,8 +19,8 @@ resource "personal" "info" {
 resource "professional" "info" {
   
   #Basic Knowlegde
-  languages = [PHP, Python Selenium]
-  web_development = [HTML, CSS, PHP, JS, Bootstarp, Wordpress, Mobirise]
+  languages = [Django, Python Selenium]
+  web_development = [HTML, CSS, JS, Bootstarp, Wordpress, Mobirise, React JS]
   cicd = [Jenkins, GIT]
   configuration_management = Ansible
   scripting_language = [Shell, Powershell]
