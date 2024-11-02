@@ -7,43 +7,49 @@
 ```tf
 resource "personal" "info" {
 
-  name = Godson Sibreyan
-  age = 23
-  nationality = Indian
-  languages = English, Tamil
-  occupation = DevOPS Engineer
-  freetime = Singing, Music, Hanging out with friends
+  name = "Godson Sibreyan"
+  experience = "5+ years"
+  nationality = "Indian"
+  languages = ["English", "Tamil"]
+  occupation = "Senior DevOps Engineer"
+  hobbies = ["Music", "Singing", "Hanging out with friends"]
 
 }
 
 resource "professional" "info" {
   
-  #Basic Knowlegde
-  languages = [Django, Python Selenium]
-  web_development = [HTML, CSS, JS, Bootstarp, Wordpress, Mobirise, React JS]
-  cicd = [Jenkins, GIT]
-  configuration_management = Ansible
-  scripting_language = [Shell, Powershell]
-  cloud = [AWS, Azure, GCP]
-  software = Terraform
-  microservice = [Docker, Kubernetes]
-  monitor = [Zabbix, istio, Grafana, Prometheus, ELK, EFK]
-  artifactory = jfrog
-  content_management = alfreso
-  on_process {
-         puppet = beginner
-         chef = beginner
-         saltstack = beginner
-  }
+  # Core Skill Set
+  devops_tools = ["Git", "Jenkins", "GitHub Action", "Azure DevOps", "CircleCI", "Rundeck"]
+  cloud_providers = ["AWS", "Azure", "GCP"]
+  infrastructure_as_code = ["Terraform", "Bicep"]
+  microservices_and_containers = ["Docker", "Kubernetes", "Helm"]
+
+  # Advanced Capabilities
+  scripting_languages = ["Shell Script", "PowerShell Script", "Python Script", "YAML"]
+  monitoring_tools = ["Grafana", "Prometheus", "Zabbix", "ELK/EFK", "Datadog"]
+  security_and_devsecops = ["Anchore", "ClamAV", "SonarQube", "OpenVAS"]
+  mlops_frameworks = ["DVC", "Azure ML Workspace"]
+  database_migration = ["AWS RDS", "Azure MySQL Flexible Server"]
+  configuration_management = ["Ansible"]
+  web_development_basics = ["HTML", "CSS", "JS", "React JS", "WordPress", "Bootstrap"]
+
 }
 
 provider "social" {
 
   linkedin = "https://in.linkedin.com/in/godson-sibreyan-802a55160"
-  github = GodsonSibreyan
-  instagram = godson_gods
-  facebook = Godson Sibreyan
-  twitter = @godson_sibi
+  github = "GodsonSibreyan"
+  contact_number = "+91 9944082468"
+  email = "godsonsibreyan108@gmail.com"
+}
+
+resource "fun_facts" "personal_life" {
+  
+  - "Passionate about continuous learning and exploring new DevOps tools."
+  - "Known for creative problem-solving and innovative automation solutions."
+  - "Enjoys collaborating with cross-functional teams and mentoring new DevOps enthusiasts."
+  - "Music enthusiast who loves singing and attending music events."
+  
 }
 ```
 
